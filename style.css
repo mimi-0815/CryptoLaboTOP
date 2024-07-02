@@ -2,151 +2,49 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #007b5e;
     color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+    padding: 10px 0;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 15px;
 }
 
-.search input {
-    padding: 5px;
-    border: none;
-    border-radius: 3px;
-}
-
-.search button {
-    padding: 5px 10px;
-    background-color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-main {
-    display: flex;
-    margin: 20px;
-}
-
-.sidebar {
-    width: 250px;
-    background-color: #4CAF50;
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.sidebar ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.sidebar ul li {
-    margin-bottom: 10px;
-}
-
-.sidebar a {
+nav ul li a {
     color: white;
     text-decoration: none;
-}
-
-.quick-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.quick-link {
-    background-color: #45a049;
     padding: 10px;
-    text-align: center;
-    border-radius: 5px;
 }
 
-.content {
-    flex-grow: 1;
-    margin-left: 20px;
-}
-
-.slider {
-    background-color: white;
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 20px;
-}
-
-.slider img {
+.banner {
     width: 100%;
     height: auto;
 }
 
-.services {
-    display: flex;
-    justify-content: space-between;
+.services, .news {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.service-item, .news-item {
     margin-bottom: 20px;
 }
 
-.personal, .business {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 48%;
-}
-
-.login-btn, .register-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
+footer {
+    background-color: #007b5e;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-right: 10px;
-}
-
-.service-info {
-    display: block;
-    margin-top: 10px;
-    color: #4CAF50;
-}
-
-.notifications {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.chat-bot {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.chat-bot button {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    text-align: center;
+    padding: 10px 0;
 }
