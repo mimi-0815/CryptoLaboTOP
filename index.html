@@ -3,71 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>岩手銀行</title>
-    <link rel="stylesheet" href="style.css">
+    <title>サイトのタイトルを入力</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">岩手銀行</div>
+        <!-- ヘッダー部分 -->
         <nav>
             <ul>
-                <li><a href="#">よくある質問</a></li>
-                <li><a href="#">文字サイズ</a></li>
-                <li><a href="#">インターネットバンキング</a></li>
+                <li><a href="#">ホーム</a></li>
+                <li><a href="#">サービス</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+                <li><a href="#">ログイン</a></li>
             </ul>
         </nav>
-        <div class="search">
-            <input type="text" placeholder="Google 検索">
-            <button type="submit">検索</button>
-        </div>
     </header>
+    
     <main>
-        <aside class="sidebar">
-            <nav>
-                <ul>
-                    <li><a href="#">個人のお客さま</a></li>
-                    <li><a href="#">ためる・ふやす</a></li>
-                    <li><a href="#">かりる</a></li>
-                    <li><a href="#">そなえる・遺す</a></li>
-                    <li><a href="#">便利につかう</a></li>
-                    <li><a href="#">法人のお客さま</a></li>
-                    <li><a href="#">企業・IR情報</a></li>
-                    <li><a href="#">採用情報</a></li>
-                </ul>
-            </nav>
-            <div class="quick-links">
-                <a href="#" class="quick-link">店舗ATM</a>
-                <a href="#" class="quick-link">金利・為替</a>
-                <a href="#" class="quick-link">各種手数料</a>
-                <a href="#" class="quick-link">ファンド情報</a>
+        <!-- メインコンテンツ -->
+        <section class="banner">
+            <img src="path/to/banner-image.jpg" alt="バナー画像">
+        </section>
+        
+        <section class="services">
+            <h2>サービス</h2>
+            <div class="service-item">
+                <h3>サービス名1</h3>
+                <p>サービスの説明1</p>
             </div>
-        </aside>
-        <section class="content">
-            <div class="slider">
-                <!-- スライダーの内容はJavaScriptで動的に変更します -->
-                <img src="olympic_coin.jpg" alt="オリンピック・パラリンピック競技大会パリ2024公式記念コイン">
+            <div class="service-item">
+                <h3>サービス名2</h3>
+                <p>サービスの説明2</p>
             </div>
-            <div class="services">
-                <div class="personal">
-                    <h2>個人のお客さま</h2>
-                    <a href="#" class="login-btn">ログイン</a>
-                    <a href="#" class="register-btn">初回登録</a>
-                    <a href="#" class="service-info">サービスのご案内</a>
-                </div>
-                <div class="business">
-                    <h2>法人のお客さま</h2>
-                    <a href="#" class="login-btn">ログイン</a>
-                    <a href="#" class="service-info">サービスのご案内</a>
-                </div>
+            <!-- 他のサービスも同様に追加 -->
+        </section>
+        
+        <section class="news">
+            <h2>ニュース</h2>
+            <div class="news-item">
+                <h3>ニュースタイトル1</h3>
+                <p>ニュース内容1</p>
             </div>
-            <div class="notifications">
-                <h3>重要なお知らせ</h3>
-                <p>2023年12月25日 いわぎんデビットカード「SakuSaku!」におけるご利用限度額の引下げについて</p>
+            <div class="news-item">
+                <h3>ニュースタイトル2</h3>
+                <p>ニュース内容2</p>
             </div>
+            <!-- 他のニュースも同様に追加 -->
         </section>
     </main>
-    <div class="chat-bot">
-        <button>チャットで質問する</button>
-    </div>
+    
+    <footer>
+        <!-- フッター部分 -->
+        <p>会社情報 | プライバシーポリシー | お問い合わせ</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
